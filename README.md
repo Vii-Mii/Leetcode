@@ -11,4 +11,4 @@ This repository is a treasure trove of my LeetCode problem solutions, carefully 
 
 **Let's dive into the world of LeetCode together! 🚀**
 
-**https://github.com/Vii-Mii/**
+**https://github.com/Vii-Mii/Leetcode/**
