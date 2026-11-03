@@ -13,6 +13,6 @@ class Solution:
 /*
  * Time Complexity: O(n)
  * Space Complexity: O(n)
- * Approach: Brute force
+ * Approach: Hash map approach
  * Tags: two-pointer
  */
