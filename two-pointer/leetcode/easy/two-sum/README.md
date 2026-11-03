@@ -22,8 +22,8 @@ _No approach notes added._
 
 | | Complexity |
 |---|---|
-| **Time** | O(n) |
-| **Space** | O(n) |
+| **Time** | O(?) |
+| **Space** | O(?) |
 
 ---
 
