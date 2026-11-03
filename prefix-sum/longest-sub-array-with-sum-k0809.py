@@ -22,5 +22,3 @@ class Solution:
                 preSum[summ] = i 
 
         return max_length
-
-# Tags: two-pointer
