@@ -22,7 +22,3 @@ class Solution:
                 preSum[summ] = i 
 
         return max_length
-
-# Time Complexity: O(n)
-# Space Complexity: O(n)
-# Tags: two-pointer
