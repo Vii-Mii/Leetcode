@@ -10,9 +10,7 @@ class Solution:
 
 #new version
 
-/*
- * Time Complexity: O(n)
- * Space Complexity: O(n)
- * Approach: Hash map approach
- * Tags: two-pointer
- */
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+# Approach: Hashing
+# Tags: hashing
