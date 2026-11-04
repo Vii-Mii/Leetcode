@@ -25,5 +25,5 @@ class Solution:
 
 # Time Complexity: O(n²)
 # Space Complexity: O(n²)
-# Approach: two pointer converging
+# Approach: Two pointer Converging
 # Tags: two-pointer
