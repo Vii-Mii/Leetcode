@@ -1,7 +1,8 @@
 class Solution:
     def threeSumClosest(self, nums: list[int], target: int) -> int:
-        closest = {}
         nums.sort()
+        diff = float('inf')
+        result = 0
         for left in range(len(nums)):
             mid = left + 1
             right = len(nums)-1 
@@ -9,18 +10,20 @@ class Solution:
             while mid < right:
                 val = nums[left] + nums[mid] + nums[right]
                 if val > target:
-                    closest[abs(target - val)] = val
+                    closest = abs(target-val)
+                    if closest < diff:
+                        diff = closest
+                        result = val
                     right -= 1
                 else: 
-                    closest[abs(target - val)] = val
+                    closest = abs(target-val)
+                    if closest < diff:
+                        diff = closest
+                        result = val
                     mid += 1
-        print(closest)
-        return closest[min(closest.keys())]
+        return result
 
-/*
- * Time Complexity: O(n²)
- * Space Complexity: O(n²)
- * Approach: two pointer
- *     hash
- * Tags: two-pointer
- */
+# Time Complexity: O(n²)
+# Space Complexity: O(n²)
+# Approach: two pointer converging
+# Tags: two-pointer
