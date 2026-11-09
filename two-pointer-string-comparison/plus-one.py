@@ -7,5 +7,4 @@ class Solution:
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)
-# Approach: Brute Force Approach
 # Tags: brute-force
