@@ -17,3 +17,21 @@ class Solution:
 # Space Complexity: O(1)
 # Approach: Inplace array modification
 # Tags: brute-force
+
+# --------------------------------------------------------------------------------
+# Next Solution Version
+# --------------------------------------------------------------------------------
+
+class Solution:
+    def replaceElements(self, arr: list[int]) -> list[int]:
+        right_max = -1
+        for i in range(len(arr)-1, -1, -1):
+            max_value = max(right_max, arr[i])
+            arr[i] = right_max
+            right_max = max_value
+        return arr
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+# Approach: Optimized approach
+# Tags: brute-force
