@@ -12,7 +12,3 @@ class Solution:
             window.append(s[r])
             length = max(length, len(window))
         return len(window) if length == 0 else length
-
-# Time Complexity: O(n)
-# Space Complexity: O(n)
-# Tags: sliding-window
